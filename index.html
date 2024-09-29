@@ -2,11 +2,33 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="./style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Image Gallery</title>
+		<title>Photo App</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<script></script>
+		<header>
+			<div class="search-container">
+				<input
+					type="text"
+					id="searchInput"
+					placeholder="Search photos..."
+					autocomplete="off"
+				/>
+				<button id="clearButton">✖️</button>
+			</div>
+		</header>
+
+		<main id="photoGrid">
+			<!-- Фотографии будут отображены здесь -->
+		</main>
+
+		<footer>
+			<a href="https://github.com/yourprofile">GitHub</a>
+			<span>© 2024</span>
+			<a href="https://course-link.com" id="courseLogo">Курс</a>
+		</footer>
+
+		<script src="script.js"></script>
 	</body>
 </html>
